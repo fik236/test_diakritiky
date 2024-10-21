@@ -29,6 +29,8 @@ void OpenNewWin (GtkWidget* wid, GtkWidget* data) {
 
     GtkWidget *labText = gtk_label_new("příšerně žluťoučký kůň úpěl ďábelské ódy");
     gtk_box_append (GTK_BOX (vBox), labText);
+    GtkWidget *labText2 = gtk_label_new("prasečí hody šmakovaly ťapínkovy");
+    gtk_box_append (GTK_BOX (vBox), labText2);
 
     GtkWidget *btnClose = gtk_button_new_with_label("Close");
     gtk_box_append  (GTK_BOX (vBox), btnClose);
@@ -51,6 +53,8 @@ static void appActivate (GApplication *app, gpointer user_data) {
 
     GtkWidget *labText = gtk_label_new("příšerně žluťoučký kůň úpěl ďábelské ódy");
     gtk_box_append (GTK_BOX (vBox), labText);
+    GtkWidget *labText2 = gtk_label_new("prasečí hody šmakovaly ťapínkovy");
+    gtk_box_append (GTK_BOX (vBox), labText2);
 
     GtkWidget *btnOpen = gtk_button_new_with_label("Open new win");
     gtk_box_append  (GTK_BOX (vBox), btnOpen);
